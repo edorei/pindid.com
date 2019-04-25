@@ -1,0 +1,49 @@
+header {
+    background-color: #343a40;
+    box-shadow      : rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+}
+
+header .nav .nav-item a {
+    color: #fff;
+}
+
+header .nav .nav-item a:hover {
+    color: #ffc107;
+}
+
+.logo {
+    color     : #fff;
+    padding   : 5px 0px 5px 15px;
+    background: #0062cc;
+    height    : 34px;
+}
+
+.left-nav-item {
+    list-style: none;
+    padding   : 0px 15px 0px 7px;
+    display   : inline-block;
+}
+
+.left-nav-item a {
+    color: #fff;
+}
+
+.carousel {
+    border-bottom: 1px solid rgb(230, 227, 227);
+}
+
+.carousel h5 {
+    color: black;
+}
+
+.carousel p {
+    color: black;
+}
+
+.carousel-indicators .active {
+    background-color: blue;
+}
+
+.carousel-indicators li{
+    background-color: gray;
+}
