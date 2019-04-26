@@ -58,6 +58,7 @@ header .nav .nav-item a:hover {
     padding: 3px;
     margin: 5px;
     border: 1px solid #dae0e5;
+    min-height: 415px;
 }
 .col_white_amrc { color:#FFF;}
 footer { width:100%; background-color:#263238; min-height:250px; padding:10px 0px 25px 0px ;}
