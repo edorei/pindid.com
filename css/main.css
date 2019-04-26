@@ -1,3 +1,6 @@
+body {
+    background: #f3f3f3;
+}
 header {
     background-color: #343a40;
     box-shadow      : rgba(0, 0, 0, 0.2) 0 2px 6px 0;
@@ -50,4 +53,9 @@ header .nav .nav-item a:hover {
 
 .item-nav-head {
     width: 100%;
+}
+.card {
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid #dae0e5;
 }
