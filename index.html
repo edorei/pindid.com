@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>pindid.com | pind your best price</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/main.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
@@ -18,10 +19,22 @@
 
 <body>
     <header>
-        <nav class="logo">
+        <nav class="logo clearfix">
             <div class="float-left">
                 <span>pindid</span>
             </div>
+            <!-- search will be used later-->
+            <ul class="nav justify-content-center" style="display: none;">
+                <li class="nav-item">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Whar are you looking for"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
             <ul class="float-right">
                 <li class="left-nav-item">
                     <a href="">About</a>
@@ -47,20 +60,10 @@
             </li>
         </ul>
 
-        <!-- search will be used later-->
-        <ul class="nav justify-content-center" style="display: none;">
-            <li class="nav-item">
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Whar are you looking for"
-                        aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
-                    </div>
-                </div>
-            </li>
-        </ul>
+
     </header>
     <div>
+
         <div class="bd-example jumbotron" style="display:none;">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="10000">
                 <ol class="carousel-indicators">
@@ -108,38 +111,150 @@
             </div>
         </div>
         <div class="container">
+            <div>
+                <table class="maintable">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="">
+                                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                                    <h3>Mobiles</h3>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="">
+                                    <i class="fa fa-car" aria-hidden="true"></i>
+                                    <h3>Auto</h3>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="">
+                                    <i class="fab fa-apple" aria-hidden="true"></i>
+                                    <h3>Apple</h3>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="">
+                                    <i class="fab fa-google" aria-hidden="true"></i>
+                                    <h3>Google</h3>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="">
+                                    <i class="fas fa-tshirt"></i>
+                                    <h3>Tshirt</h3>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="">
+                                    <i class="fas fa-swimmer"></i>
+                                    <h3>Swimming</h3>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="">
+                                    <i class="fas fa-female"></i>
+                                    <h3>Female Fashion</h3>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="">
+                                    <i class="fas fa-football-ball"></i>
+                                    <h3>Sport</h3>
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="">
+                                    <i class="fas fa-tv"></i>
+                                    <h3>Home Applience</h3>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="">
+                                    <i class="fas fa-spray-can"></i>
+                                    <h3>DO</h3>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="">
+                                    <i class="fas fa-tablet"></i>
+                                    <h3>Ayur</h3>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="">
+                                    <i class="fas fa-umbrella"></i>
+                                    <h3>Its Raining</h3>
+                                </a>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
             <div class="row">
                 <div class="col-md-3">
                     <div class="card">
-                            <a style="text-align:center;" href="https://www.amazon.in/Erisha-Womens-Printed-Palazzo-Set_Yellow/dp/B07Q5MJRPJ/ref=as_li_ss_il?crid=29ELSGT8JKD6W&keywords=kurta+with+palazzo+set+for+women&qid=1556271611&s=gateway&sprefix=kurta,aps,267&sr=8-1-spons&psc=1&linkCode=li3&tag=empoweringcon-21&linkId=1cd1d3ec7497b085251c1ae9ae91a0ec&language=en_IN" target="_blank"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07Q5MJRPJ&Format=_SL250_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=empoweringcon-21&language=en_IN" ></a><img src="https://ir-in.amazon-adsystem.com/e/ir?t=empoweringcon-21&language=en_IN&l=li3&o=31&a=B07Q5MJRPJ" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+                        <a style="text-align:center;"
+                            href="https://www.amazon.in/Erisha-Womens-Printed-Palazzo-Set_Yellow/dp/B07Q5MJRPJ/ref=as_li_ss_il?crid=29ELSGT8JKD6W&keywords=kurta+with+palazzo+set+for+women&qid=1556271611&s=gateway&sprefix=kurta,aps,267&sr=8-1-spons&psc=1&linkCode=li3&tag=empoweringcon-21&linkId=1cd1d3ec7497b085251c1ae9ae91a0ec&language=en_IN"
+                            target="_blank"><img border="0"
+                                src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07Q5MJRPJ&Format=_SL250_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=empoweringcon-21&language=en_IN"></a><img
+                            src="https://ir-in.amazon-adsystem.com/e/ir?t=empoweringcon-21&language=en_IN&l=li3&o=31&a=B07Q5MJRPJ"
+                            width="1" height="1" border="0" alt=""
+                            style="border:none !important; margin:0px !important;" />
                         <div class="card-body">
                             <p class="card-text">
-                                <a href="https://amzn.to/2XIWf4b">Erisha Women's Rayon Printed Kurta with Palazzo Pant Set_Yellow</a>
+                                <a href="https://amzn.to/2XIWf4b">Erisha Women's Rayon Printed Kurta with Palazzo Pant
+                                    Set_Yellow</a>
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card" >
-                            <a style="text-align:center;" href="https://www.amazon.in/Womens-Embroidered-Anarkali-Palazzo-Jacket/dp/B07NSTZ8GK/ref=as_li_ss_il?crid=29ELSGT8JKD6W&keywords=kurta+with+palazzo+set+for+women&qid=1556271611&s=gateway&sprefix=kurta,aps,267&sr=8-2-spons&psc=1&linkCode=li3&tag=empoweringcon-21&linkId=ac801b4ac4e84ab3b197252f00294b00&language=en_IN" target="_blank"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07NSTZ8GK&Format=_SL250_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=empoweringcon-21&language=en_IN" ></a><img src="https://ir-in.amazon-adsystem.com/e/ir?t=empoweringcon-21&language=en_IN&l=li3&o=31&a=B07NSTZ8GK" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+                    <div class="card">
+                        <a style="text-align:center;"
+                            href="https://www.amazon.in/Womens-Embroidered-Anarkali-Palazzo-Jacket/dp/B07NSTZ8GK/ref=as_li_ss_il?crid=29ELSGT8JKD6W&keywords=kurta+with+palazzo+set+for+women&qid=1556271611&s=gateway&sprefix=kurta,aps,267&sr=8-2-spons&psc=1&linkCode=li3&tag=empoweringcon-21&linkId=ac801b4ac4e84ab3b197252f00294b00&language=en_IN"
+                            target="_blank"><img border="0"
+                                src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07NSTZ8GK&Format=_SL250_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=empoweringcon-21&language=en_IN"></a><img
+                            src="https://ir-in.amazon-adsystem.com/e/ir?t=empoweringcon-21&language=en_IN&l=li3&o=31&a=B07NSTZ8GK"
+                            width="1" height="1" border="0" alt=""
+                            style="border:none !important; margin:0px !important;" />
                         <div class="card-body">
-                            <p class="card-text"><a href="https://amzn.to/2XLlpPS">Ishin Women's Rayon Navy Blue Embroidered Anarkali Kurta Palazzo Set With Jacket</a></p>
+                            <p class="card-text"><a href="https://amzn.to/2XLlpPS">Ishin Women's Rayon Navy Blue
+                                    Embroidered Anarkali Kurta Palazzo Set With Jacket</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card" >
-                            <a style="text-align:center;" href="https://www.amazon.in/Erisha-Womens-Cotton-Palazzo-Set_Rama/dp/B07Q3KWHCM/ref=as_li_ss_il?crid=29ELSGT8JKD6W&keywords=kurta+with+palazzo+set+for+women&qid=1556271611&s=gateway&sprefix=kurta,aps,267&sr=8-3-spons&psc=1&linkCode=li3&tag=empoweringcon-21&linkId=fb950c947ff4523a067239f7318bef1e&language=en_IN" target="_blank"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07Q3KWHCM&Format=_SL250_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=empoweringcon-21&language=en_IN" ></a><img src="https://ir-in.amazon-adsystem.com/e/ir?t=empoweringcon-21&language=en_IN&l=li3&o=31&a=B07Q3KWHCM" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+                    <div class="card">
+                        <a style="text-align:center;"
+                            href="https://www.amazon.in/Erisha-Womens-Cotton-Palazzo-Set_Rama/dp/B07Q3KWHCM/ref=as_li_ss_il?crid=29ELSGT8JKD6W&keywords=kurta+with+palazzo+set+for+women&qid=1556271611&s=gateway&sprefix=kurta,aps,267&sr=8-3-spons&psc=1&linkCode=li3&tag=empoweringcon-21&linkId=fb950c947ff4523a067239f7318bef1e&language=en_IN"
+                            target="_blank"><img border="0"
+                                src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07Q3KWHCM&Format=_SL250_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=empoweringcon-21&language=en_IN"></a><img
+                            src="https://ir-in.amazon-adsystem.com/e/ir?t=empoweringcon-21&language=en_IN&l=li3&o=31&a=B07Q3KWHCM"
+                            width="1" height="1" border="0" alt=""
+                            style="border:none !important; margin:0px !important;" />
                         <div class="card-body">
-                            <p class="card-text">                                
-                                <a href="https://amzn.to/2XJGsSI">Erisha Women's Cotton Kurta with Palazzo Pant Set_Rama Green</a>
+                            <p class="card-text">
+                                <a href="https://amzn.to/2XJGsSI">Erisha Women's Cotton Kurta with Palazzo Pant Set_Rama
+                                    Green</a>
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card" >
-                            <a style="text-align:center;" href="https://www.amazon.in/Harshana-Kurta-palazzo-set-women/dp/B07NDTWHPK/ref=as_li_ss_il?crid=29ELSGT8JKD6W&keywords=kurta+with+palazzo+set+for+women&qid=1556271611&s=gateway&sprefix=kurta,aps,267&sr=8-4-spons&psc=1&linkCode=li3&tag=empoweringcon-21&linkId=5c6161f904d9b8c9b5a9744721689027&language=en_IN" target="_blank"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07NDTWHPK&Format=_SL250_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=empoweringcon-21&language=en_IN" ></a><img src="https://ir-in.amazon-adsystem.com/e/ir?t=empoweringcon-21&language=en_IN&l=li3&o=31&a=B07NDTWHPK" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+                    <div class="card">
+                        <a style="text-align:center;"
+                            href="https://www.amazon.in/Harshana-Kurta-palazzo-set-women/dp/B07NDTWHPK/ref=as_li_ss_il?crid=29ELSGT8JKD6W&keywords=kurta+with+palazzo+set+for+women&qid=1556271611&s=gateway&sprefix=kurta,aps,267&sr=8-4-spons&psc=1&linkCode=li3&tag=empoweringcon-21&linkId=5c6161f904d9b8c9b5a9744721689027&language=en_IN"
+                            target="_blank"><img border="0"
+                                src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07NDTWHPK&Format=_SL250_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=empoweringcon-21&language=en_IN"></a><img
+                            src="https://ir-in.amazon-adsystem.com/e/ir?t=empoweringcon-21&language=en_IN&l=li3&o=31&a=B07NDTWHPK"
+                            width="1" height="1" border="0" alt=""
+                            style="border:none !important; margin:0px !important;" />
                         <div class="card-body">
                             <p class="card-text">
                                 <a href="https://amzn.to/2XJnThB">Harshana Kurta with palazzo set for women</a>
@@ -148,8 +263,14 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card" >
-                            <a style="text-align:center;" href="https://www.amazon.in/OnePlus-Mirror-Black-128GB-Storage/dp/B07DJHV6VZ/ref=as_li_ss_il?keywords=mobiles&qid=1556272658&s=gateway&sr=8-2-spons&psc=1&linkCode=li3&tag=empoweringcon-21&linkId=c3a2c042fdd0657fbfb31bdc38c8231f&language=en_IN" target="_blank"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07DJHV6VZ&Format=_SL250_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=empoweringcon-21&language=en_IN" ></a><img src="https://ir-in.amazon-adsystem.com/e/ir?t=empoweringcon-21&language=en_IN&l=li3&o=31&a=B07DJHV6VZ" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+                    <div class="card">
+                        <a style="text-align:center;"
+                            href="https://www.amazon.in/OnePlus-Mirror-Black-128GB-Storage/dp/B07DJHV6VZ/ref=as_li_ss_il?keywords=mobiles&qid=1556272658&s=gateway&sr=8-2-spons&psc=1&linkCode=li3&tag=empoweringcon-21&linkId=c3a2c042fdd0657fbfb31bdc38c8231f&language=en_IN"
+                            target="_blank"><img border="0"
+                                src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07DJHV6VZ&Format=_SL250_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=empoweringcon-21&language=en_IN"></a><img
+                            src="https://ir-in.amazon-adsystem.com/e/ir?t=empoweringcon-21&language=en_IN&l=li3&o=31&a=B07DJHV6VZ"
+                            width="1" height="1" border="0" alt=""
+                            style="border:none !important; margin:0px !important;" />
                         <div class="card-body">
                             <p class="card-text">
                                 <a href="https://amzn.to/2L4gpnW">OnePlus 6T (Mirror Black, 8GB RAM, 128GB Storage)</a>
@@ -158,119 +279,146 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card" >
-                            <a style="text-align:center;" href="https://www.amazon.in/Apple-iPhone-XR-64GB-Black/dp/B07JWV47JW/ref=as_li_ss_il?keywords=mobiles&qid=1556272771&refinements=p_n_operating_system_browse-bin:1485080031&rnid=1485076031&s=electronics&sr=1-3&linkCode=li3&tag=empoweringcon-21&linkId=f5c5da96472525320f1503efa267b097&language=en_IN" target="_blank"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07JWV47JW&Format=_SL250_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=empoweringcon-21&language=en_IN" ></a><img src="https://ir-in.amazon-adsystem.com/e/ir?t=empoweringcon-21&language=en_IN&l=li3&o=31&a=B07JWV47JW" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+                    <div class="card">
+                        <a style="text-align:center;"
+                            href="https://www.amazon.in/Apple-iPhone-XR-64GB-Black/dp/B07JWV47JW/ref=as_li_ss_il?keywords=mobiles&qid=1556272771&refinements=p_n_operating_system_browse-bin:1485080031&rnid=1485076031&s=electronics&sr=1-3&linkCode=li3&tag=empoweringcon-21&linkId=f5c5da96472525320f1503efa267b097&language=en_IN"
+                            target="_blank"><img border="0"
+                                src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07JWV47JW&Format=_SL250_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=empoweringcon-21&language=en_IN"></a><img
+                            src="https://ir-in.amazon-adsystem.com/e/ir?t=empoweringcon-21&language=en_IN&l=li3&o=31&a=B07JWV47JW"
+                            width="1" height="1" border="0" alt=""
+                            style="border:none !important; margin:0px !important;" />
                         <div class="card-body">
-                            <p class="card-text"><a href="https://amzn.to/2PE7JDz">Apple iPhone XR (64GB) - Black</a></p>
+                            <p class="card-text"><a href="https://amzn.to/2PE7JDz">Apple iPhone XR (64GB) - Black</a>
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card" >
-                            <a style="text-align:center;" href="https://www.amazon.in/Apple-iPhone-Silver-64GB-Storage/dp/B0711T2L8K/ref=as_li_ss_il?keywords=mobiles&qid=1556272771&refinements=p_n_operating_system_browse-bin:1485080031&rnid=1485076031&s=electronics&sr=1-7&linkCode=li3&tag=empoweringcon-21&linkId=9dbe3dbc0d156ded7a774678ea7f20a8&language=en_IN" target="_blank"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0711T2L8K&Format=_SL250_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=empoweringcon-21&language=en_IN" ></a><img src="https://ir-in.amazon-adsystem.com/e/ir?t=empoweringcon-21&language=en_IN&l=li3&o=31&a=B0711T2L8K" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-                            <div class="card-body">
-                                    <p class="card-text"><a href="https://amzn.to/2XPGQ2l">Apple iPhone X (64GB) - Silver</a></p>
-                                </div>
+                    <div class="card">
+                        <a style="text-align:center;"
+                            href="https://www.amazon.in/Apple-iPhone-Silver-64GB-Storage/dp/B0711T2L8K/ref=as_li_ss_il?keywords=mobiles&qid=1556272771&refinements=p_n_operating_system_browse-bin:1485080031&rnid=1485076031&s=electronics&sr=1-7&linkCode=li3&tag=empoweringcon-21&linkId=9dbe3dbc0d156ded7a774678ea7f20a8&language=en_IN"
+                            target="_blank"><img border="0"
+                                src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0711T2L8K&Format=_SL250_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=empoweringcon-21&language=en_IN"></a><img
+                            src="https://ir-in.amazon-adsystem.com/e/ir?t=empoweringcon-21&language=en_IN&l=li3&o=31&a=B0711T2L8K"
+                            width="1" height="1" border="0" alt=""
+                            style="border:none !important; margin:0px !important;" />
+                        <div class="card-body">
+                            <p class="card-text"><a href="https://amzn.to/2XPGQ2l">Apple iPhone X (64GB) - Silver</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
-        
+
                 <div class="col-md-3">
-                    <div class="card" >
-                            <a style="text-align:center;" href="https://www.amazon.in/Nokia-105-Black/dp/B0745BNFYV/ref=as_li_ss_il?keywords=mobiles&qid=1556272789&rnid=1485076031&s=electronics&sr=1-26&linkCode=li3&tag=empoweringcon-21&linkId=df6adfe587b8fb33eea4420ed92b5db5&language=en_IN" target="_blank"><img border="0" src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0745BNFYV&Format=_SL250_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=empoweringcon-21&language=en_IN" ></a><img src="https://ir-in.amazon-adsystem.com/e/ir?t=empoweringcon-21&language=en_IN&l=li3&o=31&a=B0745BNFYV" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+                    <div class="card">
+                        <a style="text-align:center;"
+                            href="https://www.amazon.in/Nokia-105-Black/dp/B0745BNFYV/ref=as_li_ss_il?keywords=mobiles&qid=1556272789&rnid=1485076031&s=electronics&sr=1-26&linkCode=li3&tag=empoweringcon-21&linkId=df6adfe587b8fb33eea4420ed92b5db5&language=en_IN"
+                            target="_blank"><img border="0"
+                                src="//ws-in.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0745BNFYV&Format=_SL250_&ID=AsinImage&MarketPlace=IN&ServiceVersion=20070822&WS=1&tag=empoweringcon-21&language=en_IN"></a><img
+                            src="https://ir-in.amazon-adsystem.com/e/ir?t=empoweringcon-21&language=en_IN&l=li3&o=31&a=B0745BNFYV"
+                            width="1" height="1" border="0" alt=""
+                            style="border:none !important; margin:0px !important;" />
                         <div class="card-body">
                             <p class="card-text"><a href="https://amzn.to/2DzFnFI">Nokia 105 (Black)</a></p>
                         </div>
                     </div>
                 </div>
-                
+
 
 
             </div>
         </div>
     </div>
     <footer class="footer">
-            <div class="container bottom_border">
+        <div class="container bottom_border">
             <div class="row">
-            <div class=" col-sm-4 col-md col-sm-4  col-12 col">
-            <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
-            <!--headin5_amrc-->
-            <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-            <p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35 </p>
-            <p><i class="fa fa-phone"></i>  +91-9999878398  </p>
-            <p><i class="fa fa fa-envelope"></i> info@example.com  </p>
-            
-            
+                <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+                    <!--headin5_amrc-->
+                    <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    <p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35 </p>
+                    <p><i class="fa fa-phone"></i> +91-9999878398 </p>
+                    <p><i class="fa fa fa-envelope"></i> info@example.com </p>
+
+
+                </div>
+
+
+                <div class=" col-sm-4 col-md  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+                    <!--headin5_amrc-->
+                    <ul class="footer_ul_amrc">
+                        <li><a href="http://pindid.com">Image Rectoucing</a></li>
+                        <li><a href="http://pindid.com">Clipping Path</a></li>
+                        <li><a href="http://pindid.com">Hollow Man Montage</a></li>
+                        <li><a href="http://pindid.com">Ebay & Amazon</a></li>
+                        <li><a href="http://pindid.com">Hair Masking/Clipping</a></li>
+                        <li><a href="http://pindid.com">Image Cropping</a></li>
+                    </ul>
+                    <!--footer_ul_amrc ends here-->
+                </div>
+
+
+                <div class=" col-sm-4 col-md  col-6 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+                    <!--headin5_amrc-->
+                    <ul class="footer_ul_amrc">
+                        <li><a href="http://pindid.com">Remove Background</a></li>
+                        <li><a href="http://pindid.com">Shadows & Mirror Reflection</a></li>
+                        <li><a href="http://pindid.com">Logo Design</a></li>
+                        <li><a href="http://pindid.com">Vectorization</a></li>
+                        <li><a href="http://pindid.com">Hair Masking/Clipping</a></li>
+                        <li><a href="http://pindid.com">Image Cropping</a></li>
+                    </ul>
+                    <!--footer_ul_amrc ends here-->
+                </div>
+
+
+                <div class=" col-sm-4 col-md  col-12 col">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+                    <!--headin5_amrc ends here-->
+
+                    <ul class="footer_ul2_amrc">
+                        <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+                            <p>Lorem Ipsum is simply dummy text of the printing...<a href="#">http://pindid.com/</a></p>
+                        </li>
+                        <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+                            <p>Lorem Ipsum is simply dummy text of the printing...<a href="#">http://pindid.com/</a></p>
+                        </li>
+                        <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+                            <p>Lorem Ipsum is simply dummy text of the printing...<a href="#">http://pindid.com/</a></p>
+                        </li>
+                    </ul>
+                    <!--footer_ul2_amrc ends here-->
+                </div>
             </div>
-            
-            
-            <div class=" col-sm-4 col-md  col-6 col">
-            <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
-            <!--headin5_amrc-->
-            <ul class="footer_ul_amrc">
-            <li><a href="http://pindid.com">Image Rectoucing</a></li>
-            <li><a href="http://pindid.com">Clipping Path</a></li>
-            <li><a href="http://pindid.com">Hollow Man Montage</a></li>
-            <li><a href="http://pindid.com">Ebay & Amazon</a></li>
-            <li><a href="http://pindid.com">Hair Masking/Clipping</a></li>
-            <li><a href="http://pindid.com">Image Cropping</a></li>
-            </ul>
-            <!--footer_ul_amrc ends here-->
-            </div>
-            
-            
-            <div class=" col-sm-4 col-md  col-6 col">
-            <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
-            <!--headin5_amrc-->
-            <ul class="footer_ul_amrc">
-            <li><a href="http://pindid.com">Remove Background</a></li>
-            <li><a href="http://pindid.com">Shadows & Mirror Reflection</a></li>
-            <li><a href="http://pindid.com">Logo Design</a></li>
-            <li><a href="http://pindid.com">Vectorization</a></li>
-            <li><a href="http://pindid.com">Hair Masking/Clipping</a></li>
-            <li><a href="http://pindid.com">Image Cropping</a></li>
-            </ul>
-            <!--footer_ul_amrc ends here-->
-            </div>
-            
-            
-            <div class=" col-sm-4 col-md  col-12 col">
-            <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
-            <!--headin5_amrc ends here-->
-            
-            <ul class="footer_ul2_amrc">
-            <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">http://pindid.com/</a></p></li>
-            <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">http://pindid.com/</a></p></li>
-            <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">http://pindid.com/</a></p></li>
-            </ul>
-            <!--footer_ul2_amrc ends here-->
-            </div>
-            </div>
-            </div>
-            
-            
-            <div class="container">
+        </div>
+
+
+        <div class="container">
             <ul class="foote_bottom_ul_amrc">
-            <li><a href="http://pindid.com">Home</a></li>
-            <li><a href="http://pindid.com">About</a></li>
-            <li><a href="http://pindid.com">Services</a></li>
-            <li><a href="http://pindid.com">Pricing</a></li>
-            <li><a href="http://pindid.com">Blog</a></li>
-            <li><a href="http://pindid.com">Contact</a></li>
+                <li><a href="http://pindid.com">Home</a></li>
+                <li><a href="http://pindid.com">About</a></li>
+                <li><a href="http://pindid.com">Services</a></li>
+                <li><a href="http://pindid.com">Pricing</a></li>
+                <li><a href="http://pindid.com">Blog</a></li>
+                <li><a href="http://pindid.com">Contact</a></li>
             </ul>
             <!--foote_bottom_ul_amrc ends here-->
             <p class="text-center">Copyright @2017 | Designed With by <a href="#">Your Company Name</a></p>
-            
+
             <ul class="social_footer_ul">
-            <li><a href="http://pindid.com"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="http://pindid.com"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="http://pindid.com"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="http://pindid.com"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="http://pindid.com"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="http://pindid.com"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="http://pindid.com"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="http://pindid.com"><i class="fab fa-instagram"></i></a></li>
             </ul>
             <!--social_footer_ul ends here-->
-            </div>
-            
-            </footer>
-            
+        </div>
+
+    </footer>
+
 </body>
 
 </html>
