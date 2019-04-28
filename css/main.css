@@ -1,5 +1,6 @@
 body {
     background: #f3f3f3;
+    width     : 100%;
 }
 
 header {
@@ -189,7 +190,7 @@ footer p {
 .fa,
 .fab,
 .fas {
-    font-size: 115px;
+    font-size: 60px;
 }
 
 .maintable {
@@ -198,9 +199,10 @@ footer p {
 
 .maintable tbody tr td {
     text-align      : center;
-    height          : 300px;
+    height          : 130px;
     background-color: rgba(0, 123, 255, .25);
     margin-bottom   : 15px;
+    widows          : 25%;
 }
 
 .maintable tbody tr td:hover {
