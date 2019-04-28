@@ -187,9 +187,9 @@ footer p {
     text-align: center;
 }
 
-.fa,
-.fab,
-.fas {
+td a .fa,
+td a .fab,
+td a .fas {
     font-size: 60px;
 }
 
