@@ -9,18 +9,22 @@ header {
 }
 
 header .nav .nav-item a {
-    color: #fff;
+    color: #fff;	
 }
 
 header .nav .nav-item a:hover {
     color: #ffc107;
 }
 
+header .nav {
+	flex: 1;
+}
+
 .logo {
     color     : #fff;
     padding   : 5px 0px 5px 15px;
     background: #343a40;
-    ;
+    display: flex;
     height: 34px;
 }
 
